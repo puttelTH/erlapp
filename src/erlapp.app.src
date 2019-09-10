@@ -2,7 +2,7 @@
   [{description, "erl application"},
     {vsn, "0.1.0"},
     {registered, []},
-    {mod, {dtwapp_app, []}},
+    {mod, {erlapp_app, []}},
     {applications,
       [kernel, stdlib, cowboy, iso8601, jiffy, erlydtl, gen_smtp, enacl,
         mnesia, crypto, public_key, ssl, inets, runtime_tools, sasl, parse_trans
