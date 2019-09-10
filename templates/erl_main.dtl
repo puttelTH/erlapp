@@ -1,5 +1,4 @@
 {% extends "erl_base.dtl" %}
-{# vim: set ft=htmldjango: #}
 {% block content %}
 <main id="main">
 
