@@ -3,7 +3,7 @@
 {% block content %}
 <main id="main">
 
-<header id="main-header">
+<header>
 <h2>erl application</h2>
 </header>
 
