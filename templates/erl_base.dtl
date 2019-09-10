@@ -1,0 +1,19 @@
+{# vim: set ft=htmldjango: #}
+{% spaceless %}
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ base }}/static/style.css">
+    <link rel="icon" type="image/x-icon" href="{{ base }}/favicon.ico">
+    <title>{{ title }}</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="">
+</head>
+<body>
+{% block content %}{% endblock %}
+</body>
+</html>
+{% endspaceless %}
