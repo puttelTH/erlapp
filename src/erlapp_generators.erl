@@ -9,5 +9,5 @@
 
 generate(main) ->
   erlydtl:compile_file("templates/erl_main.dtl", erlapp_main_dtl),
-  {ok, Res} = erlapp_main_dtl:render(),
+  {ok, Res} = erlapp_main_dtl:render(server),
   Res.

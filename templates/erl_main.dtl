@@ -1,10 +1,12 @@
 {% extends "erl_base.dtl" %}
 {% block content %}
-<main id="main">
 
-<header>
 <h2>erl application</h2>
-</header>
+	<p>Refresh the page to see the next cookie.</p>
 
-</main>
+	<h2>Cookie Set Server-Side</h2>
+	<p>{{ server }}</p>
+
+
+
 {% endblock %}
